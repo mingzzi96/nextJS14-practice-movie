@@ -1,8 +1,10 @@
 async function getVideos(id: string) {
-  const response = await fetch(
-    `${process.env.NEXT_PUBLIC_BASE_URL}/${id}/videos`
-  );
-  return response.json();
+  await new Promise((resolve) => setTimeout(resolve, 500));
+  throw new Error("something has broken...");
+  //   const response = await fetch(
+  //     `${process.env.NEXT_PUBLIC_BASE_URL}/${id}/videos`
+  //   );
+  //   return response.json();
 }
 
 // video의 ui만 가진 코드
