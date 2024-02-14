@@ -8,7 +8,7 @@ export const metadata = {
   title: "HOME",
 };
 
-export async function getMovies() {
+async function getMovies() {
   // 로딩 상태를 위해 일부러 프로그램을 느리게 만들어주는 트릭 (실제로는 필요 없는 코드)
   // getMovies 함수가 이 구문에서 2초간 멈췄다가 실행될 것이다.
   // 그럼 사용자는 화면이 로딩될 때 까지 접근이 불가능하다.
