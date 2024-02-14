@@ -2,7 +2,7 @@
 import styles from "../../styles/home.module.css";
 import Movie from "../../components/movie";
 
-// "use client" 필요 없음!
+// "use client" 필요 없음
 
 export const metadata = {
   title: "HOME",
